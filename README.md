@@ -16,7 +16,7 @@ Scalable System: Can be integrated with multiple CCTV cameras for wide-area cove
 
 Technologies Used
 
-Frontend: React.js (Optional for dashboards)
+Frontend: React.js 
 
 Backend: Flask / Python
 
@@ -24,7 +24,7 @@ Computer Vision: OpenCV, TensorFlow / PyTorch
 
 Machine Learning Model: CNN-based custom model for threat detection
 
-Database: MySQL / MongoDB
+Database: MySQL 
 
 How It Works
 
@@ -38,10 +38,10 @@ Admins or security personnel can review incidents via a dashboard.
 
 Installation
 # Clone the repository
-git clone https://github.com/yourusername/SafeVisionAI.git
+git clone https://github.com/SHRIKANTAMBATKAR/SafeVision-AI.git
 
 # Navigate to the project directory
-cd SafeVisionAI
+cd SafeVision-AI
 
 # Install dependencies
 pip install -r requirements.txt
@@ -57,10 +57,10 @@ rts
 Improved ML model with multi-class threat detection
 
 Expansion to public safety and smart city surveillance
-<img width="1048" height="687" alt="Screenshot 2025-11-13 000406" src="https://github.com/user-attachments/assets/a3e72182-d6e7-434f-ae2d-006f595960cd" />
 <img width="1795" height="869" alt="Screenshot 2025-11-13 000238" src="https://github.com/user-attachments/assets/6577802d-4146-4965-94f1-1c37c7df499b" />
 <img width="1793" height="876" alt="Screenshot 2025-11-13 000221" src="https://github.com/user-attachments/assets/ad9c1179-cd16-4d89-b33d-c6cc998e988a" />
 <img width="1892" height="938" alt="Screenshot 2025-11-13 000158" src="https://github.com/user-attachments/assets/e2e48958-abd7-48f4-bd1d-7248f36cc6ad" />
 <img width="1884" height="970" alt="Screenshot 2025-11-13 000133" src="https://github.com/user-attachments/assets/bf6ebb21-6b49-416e-a80b-da7756bed814" />
 <img width="1048" height="687" alt="Screenshot 2025-11-13 000406" src="https://github.com/user-attachments/assets/0558ed72-cb13-4223-9847-17bff47317f5" />
+
 

@@ -16,7 +16,7 @@ Scalable System: Can be integrated with multiple CCTV cameras for wide-area cove
 
 Technologies Used
 
-Frontend: React.js 
+Frontend: HTML/ CSS / JavaScript 
 
 Backend: Flask / Python
 
@@ -62,5 +62,6 @@ Expansion to public safety and smart city surveillance
 <img width="1892" height="938" alt="Screenshot 2025-11-13 000158" src="https://github.com/user-attachments/assets/e2e48958-abd7-48f4-bd1d-7248f36cc6ad" />
 <img width="1884" height="970" alt="Screenshot 2025-11-13 000133" src="https://github.com/user-attachments/assets/bf6ebb21-6b49-416e-a80b-da7756bed814" />
 <img width="1048" height="687" alt="Screenshot 2025-11-13 000406" src="https://github.com/user-attachments/assets/0558ed72-cb13-4223-9847-17bff47317f5" />
+
 
 

@@ -1,42 +1,77 @@
-SafeVisionAI
+# 🛡️ SafeVisionAI
 
-SafeVisionAI is an advanced real-time visual monitoring and threat detection system designed to enhance safety for women. Leveraging computer vision and machine learning, SafeVisionAI analyzes live CCTV footage to detect potentially unsafe situations and immediately alert authorized personnel, including security staff or law enforcement. It also maintains a structured database of incidents for analysis and reporting.
+**SafeVisionAI** is an advanced real-time visual monitoring and threat detection system designed to enhance safety for women.  
+It leverages computer vision and machine learning to analyze live CCTV footage, detect potentially unsafe situations, and immediately alert authorized personnel such as security staff or law enforcement.
 
-Features
+The system also maintains a structured database of incidents for monitoring, analysis, and reporting.
 
-Real-Time Threat Detection: Monitors live video feeds and identifies unsafe situations using a trained ML model.
+---
 
-Automated Alerts: Sends instant notifications to admins, security personnel, or the police when threats are detected.
+## 🚀 Features
 
-Incident Logging: Records events in a structured database for future analysis and reporting.
+- **Real-Time Threat Detection**  
+  Monitors live CCTV video feeds and identifies unsafe situations using a trained machine learning model.
 
-User-Friendly Interface: Intuitive dashboard for monitoring and reviewing incidents.
+- **Automated Alerts**  
+  Sends instant notifications to admins, security personnel, or police when a threat is detected.
 
-Scalable System: Can be integrated with multiple CCTV cameras for wide-area coverage.
+- **Incident Logging**  
+  Records detected events in a structured database for future review and analysis.
 
-Technologies Used
+- **User-Friendly Interface**  
+  Provides an intuitive dashboard for real-time monitoring and incident management.
 
-Frontend: HTML/ CSS / JavaScript 
+- **Scalable Architecture**  
+  Supports integration with multiple CCTV cameras for large-area surveillance.
 
-Backend: Flask / Python
+---
 
-Computer Vision: OpenCV, TensorFlow / PyTorch
+## 🧰 Technologies Used
 
-Machine Learning Model: CNN-based custom model for threat detection
+### Frontend
+- HTML  
+- CSS  
+- JavaScript  
 
-Database: MySQL 
+### Backend
+- Flask  
+- Python  
 
-How It Works
+### Computer Vision & ML
+- OpenCV  
+- TensorFlow / PyTorch  
+- CNN-based custom threat detection model  
 
-Video feeds from CCTV cameras are processed in real-time.
+### Database
+- MySQL  
 
-Frames are analyzed by a convolutional neural network (CNN) to detect suspicious activities.
+---
 
-On detecting a threat, the system sends alerts and logs the incident in the database.
+## ⚙️ How It Works
 
-Admins or security personnel can review incidents via a dashboard.
+1. Live video feeds are captured from connected CCTV cameras.  
+2. Video frames are processed in real time using OpenCV.  
+3. A CNN-based model analyzes frames to detect suspicious or unsafe activities.  
+4. When a threat is identified:
+   - Alerts are sent to authorized personnel.
+   - The incident is logged in the database.
+5. Admins and security teams can review incidents through the dashboard.
 
-Installation
+---
+
+## 📸 Screenshots
+
+![Dashboard View](https://github.com/user-attachments/assets/6577802d-4146-4965-94f1-1c37c7df499b)
+![Incident Monitoring](https://github.com/user-attachments/assets/ad9c1179-cd16-4d89-b33d-c6cc998e988a)
+![Threat Detection View](https://github.com/user-attachments/assets/e2e48958-abd7-48f4-bd1d-7248f36cc6ad)
+![Alert System](https://github.com/user-attachments/assets/bf6ebb21-6b49-416e-a80b-da7756bed814)
+![System Overview](https://github.com/user-attachments/assets/0558ed72-cb13-4223-9847-17bff47317f5)
+
+---
+
+## 🛠️ Installation
+
+```bash
 # Clone the repository
 git clone https://github.com/SHRIKANTAMBATKAR/SafeVision-AI.git
 
@@ -48,20 +83,22 @@ pip install -r requirements.txt
 
 # Run the application
 python app.py
+```
+### Future Scope
 
-Future Scope
+- Integration with mobile applications for instant alerts
 
-Integration with mobile applications for instant ale
-rts
+- Improved ML models with multi-class threat detection
 
-Improved ML model with multi-class threat detection
+- Expansion into public safety systems and smart city surveillance
 
-Expansion to public safety and smart city surveillance
-<img width="1795" height="869" alt="Screenshot 2025-11-13 000238" src="https://github.com/user-attachments/assets/6577802d-4146-4965-94f1-1c37c7df499b" />
-<img width="1793" height="876" alt="Screenshot 2025-11-13 000221" src="https://github.com/user-attachments/assets/ad9c1179-cd16-4d89-b33d-c6cc998e988a" />
-<img width="1892" height="938" alt="Screenshot 2025-11-13 000158" src="https://github.com/user-attachments/assets/e2e48958-abd7-48f4-bd1d-7248f36cc6ad" />
-<img width="1884" height="970" alt="Screenshot 2025-11-13 000133" src="https://github.com/user-attachments/assets/bf6ebb21-6b49-416e-a80b-da7756bed814" />
-<img width="1048" height="687" alt="Screenshot 2025-11-13 000406" src="https://github.com/user-attachments/assets/0558ed72-cb13-4223-9847-17bff47317f5" />
+📌 Note
 
+This project is developed for educational, research, and social-impact purposes and demonstrates the application of computer vision and AI in real-world safety systems.
+
+👨‍💻 Author
+
+Shrikant Ambatkar
+B.Tech Computer Science
 
 
